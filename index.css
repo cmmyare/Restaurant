@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:sans-serif;
+}
+.hero{
+	height: 100vh;
+	width: 100% ;
+     background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/RR.jfif);
+	 background-size: cover;
+	 background-position: center;
+	overflow: hidden;
+	 font-family: Bodoni MT;
+	}
+	li{
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	a:hover{
+      text-decoration: none;
+	}
+	.menu ul{
+		float: right;
+		list-style-type: none;
+		margin-top: 40px;
+		margin-right: 10px;
+	}
+	.menu ul li{
+		display: inline-block;
+		padding: 5px;
+	}
+	.menu ul li a{
+		color: #fff;
+		padding: 5px 20px;
+		border: 1px solid #fff;
+	}
+	.menu ul li a:hover{background-color: #fff;
+		color: #000;
+        transition: 0.6s ease;
+	}
+	.management{
+		color: #fff;
+		background: transparent;
+		margin-top: -7px;
+		margin-right: 500px;
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: bold;
+		border: 1px solid #fff;
+		padding: 10px 30px;
+		cursor: pointer;
+	}
+	.management:hover{
+		color: #fff;
+		background: pink;
+		transition: 0.5s ease; 
+		box-shadow: 0 0 5px pink,
+		            0 0 25px pink,
+		            0 0 50px pink,
+		            0 0 200px pink;
+}
+.text{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.text h1{
+	color: #fff;
+	font-size: 70px;
+}
+.text p{
+	color: #fff;
+	font-size: 40px;
+}
+.button{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 25px;
+	font-size: 20px;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+	transition: 0.6s ease;
+}
+@media(max-width: 700px){
+	.row{
+		flex-direction:column;
+	}
+	
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Mono:wght@100&family=Tapestry&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(bj.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.tab-container {
+    height: 80%;
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: #0d23ac;
+    box-shadow: 2px 2px 20px rgba(1, 12, 3, 0.2);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(RR.jfif);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    font-family: Bodoni MT;
+    color: white;
+    font-size: large;
+}
+
+.tabs ul {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs ul li {
+    list-style-type: none;
+    padding: 5px 30px;
+    margin: 5px;
+    background: #d3d5dbc2;
+    color: black;
+    border-radius: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 20px rgba(134, 236, 153, 0.3);
+}
+
+.tabs ul li.btn-active {
+    background: #f7d6d3;
+    color: #d93025;
+}
+
+.details {
+    display: none;
+}
+
+.btn {
+    background: #d0d6fd;
+    color: #0d23ac;
+    padding: 15px 70px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.details h1,
+.details p {
+    padding: 5px;
+    margin: 5px 10px;
+}
+
+.details.active {
+    display: block;
+}
