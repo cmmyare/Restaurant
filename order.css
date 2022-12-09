@@ -30,6 +30,9 @@ transition: 0.2s ease;
 	padding: 5px;
 	text-align: center;
 }
+a{
+	text-decoration: none;
+}
 .item button{
 	padding: 5px;
 	border: none;
